@@ -2925,3 +2925,18 @@ a.attachment {
  * Fixes a rendering issue on Safari
  */
 .select2-search__field{-webkit-appearance: textfield;}
+/*Fluid container*/
+#container {
+    width: 95%;
+    min-width: 1015px;
+}
+#content > div:nth-child(3) > div.sticky.bar.opaque > div {
+    width: 100% !important;
+}
+#content > div:nth-child(2) > div.sticky.bar > div {
+    width: 100% !important;
+}
+table {
+    width: 100%;
+}
+
